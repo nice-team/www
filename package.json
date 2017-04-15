@@ -1,0 +1,38 @@
+{
+  "name": "nice-team",
+  "version": "0.1.0",
+  "description": "static site generator for nice.team",
+  "main": "index.js",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": 8033
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nuxt",
+    "build": "nuxt build",
+    "demo": "nuxt start",
+    "gen": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?"
+  },
+  "author": "MKGaru",
+  "license": "ISC",
+  "dependencies": {
+    "highlightjs": "^9.10.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "marked": "^0.3.6",
+    "meta-marked": "^0.4.2",
+    "nuxt": "^0.10.5",
+    "postcss-nested": "^1.0.0",
+    "spectre.css": "^0.2.12",
+    "vue-headroom": "^0.3.0",
+    "vue-infinite-loading": "^2.0.4"
+  }
+}
