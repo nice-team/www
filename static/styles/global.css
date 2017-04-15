@@ -1,0 +1,35 @@
+html,body,#__nuxt{
+	height: 100%;
+	width: 100%;
+}
+html{
+	position: absolute;
+}
+body{
+	min-width: 520px;
+	overflow: auto;
+}
+h1{
+	font-size: 2.8rem
+}
+
+h2{
+	font-size: 2.6rem
+}
+
+h3{
+	font-size: 2.4rem
+}
+
+a:focus{
+	box-shadow: none
+}
+
+.code{
+	position: static;
+}
+
+::selection{
+	background: #99ca3a;
+	color:white;
+}
